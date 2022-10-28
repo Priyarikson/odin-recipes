@@ -1,6 +1,16 @@
-h1{
-    text-align: center;
+html{
+    background-color: bisque;
 }
+h1{
+    text-align:center;
+}
+#h1 {
+    font-family: fantasy;
+    font-size: xx-large;
+  }
+  #right{
+    text-align: right;
+  }
 
 .content{
     display:flex;
@@ -26,12 +36,14 @@ h1{
 div img{
        
     width:350px;
-    height:500px;
+    height:400px;
 }
 .center {
-    display: block;
+    
     margin-left: auto;
     margin-right: auto;
+    width:150px;
+    height:100px;
     
   }
   .cent
